@@ -1,0 +1,87 @@
+/*Declaring Variables*/
+
+:root {
+  --white: #ffffff;
+  --black: #444040;
+  --green: #05a505;
+}
+
+
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #4444;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+
+/* Texts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+/* Custom Styles */
+
+/* Navigation Bar */
+
+.navbar {
+  background: var(--black) !important;
+  background-size: cover;
+  border-bottom: 5px solid var(--green);
+  padding: 10px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.navbar-brand, .nav-link {
+  color: var(--white) !important;
+
+}
+
+/* Hero/Jumbotron Styling */
+.jumbotron {
+  display: flex;
+  background-image: url(../images/background2.jpg);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron img {
+  margin-right: 7%;
+}
+
+/*.display-6, .lead {
+  color: var(--white);
+}*/
+
+.btn {
+  background: var(--green);
+  border: 1px solid var(--black);
+}
