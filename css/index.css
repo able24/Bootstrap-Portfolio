@@ -24,6 +24,7 @@ body {
   background: #4444;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -59,7 +60,8 @@ p {
   margin-right: 0 !important;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand,
+.nav-link {
   color: var(--white) !important;
 
 }
@@ -116,8 +118,8 @@ p {
 }
 
 .card-body {
-  background:rgba(97, 163, 97, 0.3);
-  
+  background: rgba(97, 163, 97, 0.3);
+
 }
 
 /* Skill Styling */
@@ -148,4 +150,34 @@ p {
 
 #aboutMe p {
   margin: 20px;
+  text-align: center;
 }
+
+/* footer */
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: var(--black);
+  margin-top: 50px;
+  color: var(--white);
+  border-bottom: 5px solid var(--green);
+}
+
+footer a {
+  margin: 12px;
+  text-decoration: none;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 576px) {
+    .jumbotron {
+      display: block;
+    }
+  }
+
