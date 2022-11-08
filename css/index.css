@@ -82,6 +82,70 @@ p {
 }*/
 
 .btn {
-  background: var(--green);
-  border: 1px solid var(--black);
+  background: transparent;
+  border: 2px solid var(--green);
+  color: black;
+}
+
+/* My Work Styling */
+.content {
+  padding: 50px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.cardContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.showsNear {
+  padding: 0px 30px 30px 30px;
+}
+
+
+.card img {
+  height: 300px;
+}
+
+.cardContainer .card:hover {
+  height: 500px;
+  cursor: pointer;
+}
+
+.card-body {
+  background:rgba(97, 163, 97, 0.3);
+  
+}
+
+/* Skill Styling */
+
+.my-skills {
+  padding: 50px;
+}
+
+.my-skills h1 {
+  text-align: center;
+}
+
+.my-skills .row .card {
+  margin-top: 20px;
+  text-align: center;
+  font-size: xx-large;
+  color: var(--green);
+}
+
+/*About Me Styling */
+.aboutMe {
+  padding: 50px;
+}
+
+#about {
+  border-right: 3px solid var(--green);
+}
+
+#aboutMe p {
+  margin: 20px;
 }
